@@ -1,0 +1,431 @@
+/* ================================
+   ABOUT PAGE
+================================ */
+
+.about-page {
+    background: #f7f7f5;
+    color: #111;
+}
+
+
+/* ================================
+   HERO
+================================ */
+
+.about-page-hero {
+    min-height: 680px;
+
+    padding: 170px 7vw 110px;
+
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-page-number {
+    margin-bottom: 35px;
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+    color: #777;
+}
+
+.about-page-hero h1 {
+    margin: 0;
+
+    font-size: clamp(75px, 10vw, 145px);
+
+    line-height: 0.84;
+
+    letter-spacing: -8px;
+
+    font-weight: 800;
+}
+
+.about-page-hero h1 em {
+    color: #3297ff;
+
+    font-family: "Playfair Display", serif;
+
+    font-weight: 400;
+
+    letter-spacing: -5px;
+}
+
+.about-page-hero p {
+    max-width: 620px;
+
+    margin-top: 50px;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+    color: #606060;
+}
+
+
+/* ================================
+   GENERAL SECTIONS
+================================ */
+
+.about-content-section {
+    padding: 130px 7vw;
+
+    border-top: 1px solid #deded9;
+}
+
+.about-section-label {
+    margin-bottom: 70px;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 2.5px;
+
+    color: #777;
+}
+
+
+/* ================================
+   WHO WE ARE
+================================ */
+
+.about-intro-grid {
+    max-width: 1280px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 0.65fr;
+
+    gap: 100px;
+}
+
+.about-intro-grid h2 {
+    margin: 0;
+
+    font-size: clamp(50px, 6vw, 82px);
+
+    line-height: 0.94;
+
+    letter-spacing: -5px;
+
+    font-weight: 800;
+}
+
+.about-intro-grid h2 em {
+    color: #3297ff;
+
+    font-family: "Playfair Display", serif;
+
+    font-weight: 400;
+
+    letter-spacing: -3px;
+}
+
+.about-intro-text {
+    padding-top: 10px;
+}
+
+.about-intro-text p {
+    margin-bottom: 28px;
+
+    font-size: 15px;
+
+    line-height: 1.85;
+
+    color: #606060;
+}
+
+
+/* ================================
+   BELIEFS
+================================ */
+
+.about-beliefs-grid {
+    max-width: 1280px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    border-top: 1px solid #dcdcd7;
+
+    border-left: 1px solid #dcdcd7;
+}
+
+.about-belief-card {
+    min-height: 290px;
+
+    padding: 35px;
+
+    border-right: 1px solid #dcdcd7;
+
+    border-bottom: 1px solid #dcdcd7;
+
+    background: #f7f7f5;
+
+    transition:
+        background 0.3s ease,
+        transform 0.3s ease;
+}
+
+.about-belief-card:hover {
+    background: #fff;
+
+    transform: translateY(-4px);
+}
+
+.about-belief-card span {
+    display: block;
+
+    margin-bottom: 90px;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    color: #999;
+}
+
+.about-belief-card h3 {
+    margin: 0 0 14px;
+
+    font-size: 28px;
+
+    letter-spacing: -1px;
+
+    font-weight: 700;
+}
+
+.about-belief-card p {
+    max-width: 430px;
+
+    margin: 0;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+
+    color: #666;
+}
+
+
+/* ================================
+   GRIET SECTION
+================================ */
+
+.about-griet-section {
+    padding: 150px 7vw 170px;
+
+    background: #111;
+
+    color: #fff;
+}
+
+.about-griet-section .about-section-label {
+    color: #999;
+}
+
+.about-griet-content {
+    max-width: 1280px;
+
+    margin: 0 auto;
+}
+
+.about-griet-content h2 {
+    margin: 0;
+
+    font-size: clamp(65px, 8vw, 115px);
+
+    line-height: 0.88;
+
+    letter-spacing: -7px;
+
+    font-weight: 800;
+}
+
+.about-griet-content h2 em {
+    color: #3297ff;
+
+    font-family: "Playfair Display", serif;
+
+    font-weight: 400;
+
+    letter-spacing: -4px;
+}
+
+.about-griet-content p {
+    max-width: 560px;
+
+    margin-top: 45px;
+
+    color: #b5b5b5;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+.about-footer {
+    padding: 45px 7vw;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+
+    background: #111;
+
+    border-top: 1px solid #333;
+
+    color: #fff;
+}
+
+.about-footer-logo {
+    font-size: 28px;
+
+    font-weight: 800;
+
+    letter-spacing: -2px;
+}
+
+.about-footer-logo span {
+    color: #3297ff;
+}
+
+.about-footer p {
+    margin: 0;
+
+    color: #999;
+
+    font-size: 12px;
+}
+
+.about-footer-links {
+    display: flex;
+
+    gap: 25px;
+}
+
+.about-footer-links a {
+    color: #999;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    transition: color 0.3s ease;
+}
+
+.about-footer-links a:hover {
+    color: #3297ff;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 800px) {
+
+    .about-page-hero {
+        min-height: 600px;
+
+        padding: 140px 7vw 80px;
+    }
+
+    .about-page-hero h1 {
+        font-size: clamp(55px, 14vw, 90px);
+
+        letter-spacing: -5px;
+    }
+
+    .about-intro-grid {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .about-beliefs-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-content-section {
+        padding: 100px 7vw;
+    }
+
+    .about-griet-section {
+        padding: 110px 7vw 130px;
+    }
+
+    .about-griet-content h2 {
+        font-size: clamp(55px, 13vw, 90px);
+
+        letter-spacing: -5px;
+    }
+
+    .about-footer {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .about-page-hero {
+        padding-top: 120px;
+    }
+
+    .about-page-hero h1 {
+        font-size: 55px;
+
+        letter-spacing: -3px;
+    }
+
+    .about-page-hero h1 em {
+        letter-spacing: -2px;
+    }
+
+    .about-intro-grid h2 {
+        font-size: 45px;
+
+        letter-spacing: -3px;
+    }
+
+    .about-belief-card {
+        min-height: 260px;
+
+        padding: 28px;
+    }
+
+    .about-belief-card span {
+        margin-bottom: 60px;
+    }
+
+    .about-griet-content h2 {
+        font-size: 52px;
+
+        letter-spacing: -3px;
+    }
+}

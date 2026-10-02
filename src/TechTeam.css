@@ -1,0 +1,385 @@
+/* ================================
+   TECH TEAM PAGE
+================================ */
+
+.tech-team-page {
+    background: #f7f7f5;
+    color: #111;
+}
+
+
+/* ================================
+   HERO
+================================ */
+
+.tech-page-hero {
+    min-height: 680px;
+    padding: 170px 7vw 110px;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tech-page-number {
+    margin-bottom: 35px;
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+    color: #777;
+}
+
+.tech-page-hero h1 {
+    margin: 0;
+
+    font-size: clamp(75px, 10vw, 145px);
+    line-height: 0.86;
+
+    letter-spacing: -8px;
+    font-weight: 800;
+}
+
+.tech-page-hero h1 em {
+    color: #3297ff;
+
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+
+    letter-spacing: -5px;
+}
+
+.tech-page-hero p {
+    max-width: 620px;
+
+    margin-top: 50px;
+
+    font-size: 15px;
+    line-height: 1.8;
+
+    color: #606060;
+}
+
+
+/* ================================
+   GENERAL SECTIONS
+================================ */
+
+.tech-content-section {
+    padding: 130px 7vw;
+
+    border-top: 1px solid #deded9;
+}
+
+.tech-section-label {
+    margin-bottom: 70px;
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+
+    color: #777;
+}
+
+
+/* ================================
+   ABOUT
+================================ */
+
+.tech-about-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 0.65fr;
+
+    gap: 100px;
+}
+
+.tech-about-grid h2 {
+    margin: 0;
+
+    font-size: clamp(48px, 6vw, 82px);
+    line-height: 0.95;
+
+    letter-spacing: -5px;
+    font-weight: 800;
+}
+
+.tech-about-grid h2 em {
+    color: #3297ff;
+
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+
+    letter-spacing: -3px;
+}
+
+.tech-about-text {
+    padding-top: 10px;
+}
+
+.tech-about-text p {
+    margin-bottom: 28px;
+
+    font-size: 15px;
+    line-height: 1.85;
+
+    color: #606060;
+}
+
+
+/* ================================
+   WHAT WE BUILD
+================================ */
+
+.tech-build-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    border-top: 1px solid #dcdcd7;
+    border-left: 1px solid #dcdcd7;
+}
+
+.tech-build-card {
+    position: relative;
+
+    min-height: 300px;
+
+    padding: 35px;
+
+    border-right: 1px solid #dcdcd7;
+    border-bottom: 1px solid #dcdcd7;
+
+    background: #f7f7f5;
+
+    transition:
+        background 0.3s ease,
+        transform 0.3s ease;
+}
+
+.tech-build-card:hover {
+    background: #fff;
+    transform: translateY(-4px);
+}
+
+.tech-build-number {
+    display: block;
+
+    margin-bottom: 80px;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    color: #999;
+}
+
+.tech-build-accent {
+    width: 35px;
+    height: 3px;
+
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+}
+
+.tech-build-accent.blue {
+    background: #3297ff;
+}
+
+.tech-build-accent.purple {
+    background: #6548c9;
+}
+
+.tech-build-accent.green {
+    background: #189725;
+}
+
+.tech-build-card h3 {
+    margin: 0 0 14px;
+
+    font-size: 27px;
+
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.tech-build-card p {
+    max-width: 430px;
+
+    margin: 0;
+
+    color: #666;
+
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+/* ================================
+   JOIN SECTION
+================================ */
+
+.tech-join-section {
+    padding: 150px 7vw 170px;
+
+    background: #111;
+    color: #fff;
+}
+
+.tech-join-section .tech-section-label {
+    color: #999;
+}
+
+.tech-join-content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.tech-join-content h2 {
+    margin: 0;
+
+    font-size: clamp(65px, 8vw, 115px);
+    line-height: 0.88;
+
+    letter-spacing: -7px;
+    font-weight: 800;
+}
+
+.tech-join-content h2 em {
+    color: #3297ff;
+
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+
+    letter-spacing: -4px;
+}
+
+.tech-join-content p {
+    max-width: 560px;
+
+    margin-top: 45px;
+
+    color: #b5b5b5;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.tech-join-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+
+    margin-top: 35px;
+
+    padding: 14px 20px;
+
+    border: 1px solid #3297ff;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    transition:
+        background 0.3s ease,
+        transform 0.3s ease;
+}
+
+.tech-join-btn span {
+    font-size: 18px;
+}
+
+.tech-join-btn:hover {
+    background: #3297ff;
+    transform: translateY(-3px);
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 800px) {
+
+    .tech-page-hero {
+        min-height: 600px;
+        padding: 140px 7vw 80px;
+    }
+
+    .tech-page-hero h1 {
+        font-size: clamp(55px, 14vw, 90px);
+        letter-spacing: -5px;
+    }
+
+    .tech-about-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .tech-build-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tech-content-section {
+        padding: 100px 7vw;
+    }
+
+    .tech-join-section {
+        padding: 110px 7vw 130px;
+    }
+
+    .tech-join-content h2 {
+        font-size: clamp(55px, 13vw, 90px);
+        letter-spacing: -5px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .tech-page-hero {
+        padding-top: 120px;
+    }
+
+    .tech-page-hero h1 {
+        font-size: 55px;
+        letter-spacing: -3px;
+    }
+
+    .tech-page-hero h1 em {
+        letter-spacing: -2px;
+    }
+
+    .tech-page-hero p {
+        margin-top: 35px;
+    }
+
+    .tech-about-grid h2 {
+        font-size: 45px;
+        letter-spacing: -3px;
+    }
+
+    .tech-build-card {
+        min-height: 260px;
+        padding: 28px;
+    }
+
+    .tech-build-number {
+        margin-bottom: 60px;
+    }
+
+    .tech-join-content h2 {
+        font-size: 52px;
+        letter-spacing: -3px;
+    }
+}
